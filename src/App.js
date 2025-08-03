@@ -6,7 +6,7 @@ function App() {
   const [weather, setWeather] = useState(null);
 
   const getWeather = async () => {
-    const response = await fetch(`http://localhost:5000/weather?city=${city}`);
+    const response = await fetch(`https://weather-app-backend-do56.onrender.com/weather?city=${city}`);
     const data = await response.json();
     setWeather(data);
   };
