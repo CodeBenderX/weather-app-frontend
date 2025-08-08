@@ -3,12 +3,14 @@ import '../components/NavBar.css';
 
 const NavBar = () => {
   return (
-    <>
-      <a href="/">Home</a>
-      <a href="/map">Map</a>
-      <a href="/settings">Settings</a>
-      <a href="/contact">Contact</a>
-    </>
+    <div className="nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/map">Map</a></li>
+        <li><a href="/settings">Settings</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
   )
 }
 
