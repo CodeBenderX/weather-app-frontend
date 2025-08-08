@@ -6,7 +6,7 @@ function App() {
   const [weather, setWeather] = useState(null);
 
   const getWeather = async () => {
-    const response = await fetch(`https://weather-app-backend-do56.onrender.com/weather?city=${city}`);
+    const response = await fetch(`https://weather-app-backend-do56.onrender.com/weather?city=${city}&units=metric')`);
     const data = await response.json();
     setWeather(data);
   };
@@ -34,8 +34,3 @@ function App() {
 }
 
 export default App;
-// This code is a simple React application that fetches weather data from a backend service.
-// It allows users to input a city name and displays the current temperature and weather condition for that city.
-// The temperature is converted from Kelvin to Celsius for better readability.
-// The application uses the Fetch API to make requests to a backend server running on localhost:5000.
-// The weather data is displayed dynamically based on the user's input.
