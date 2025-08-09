@@ -1,0 +1,18 @@
+.header{
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  width: 100% !important;
+  justify-content: center;
+  text-align: center;
+}
+input{
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+  border-radius: 25px;
+}
+button{
+  border: none;
+  background-color: transparent;
+}
