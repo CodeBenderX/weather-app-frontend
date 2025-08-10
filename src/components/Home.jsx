@@ -14,7 +14,7 @@ const Home = ({ city, setCity, getWeather, weather}) =>(
         {weather ? (
           <div>
             <div className="current-location" style={{display:'flex',flexDirection:'column',padding:0}}>
-              <p style={{color:'#5C677D',margin:0}}>Current Location</p>
+              <p style={{color:'#5C677D',margin:0, padding:'10px 10px 0 0'}}>Current Location</p>
               <h2 style={{margin:0}}>{weather?.name || 'Locating...'}</h2>
             </div>
             {/* Display current weather icon and temperature */}
