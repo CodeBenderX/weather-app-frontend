@@ -4,5 +4,7 @@ export const assets = {
   pressure: '/assets/pressure.png',
   visibility: '/assets/visibility.png',
   dewPoint: '/assets/dew.png',
-  uvIndex: '/assets/uv.png'
+  uvIndex: '/assets/uv.png',
+  headerBackground: '/assets/header-background.png',
+  searchIcon: '/assets/search-icon.png'
 };
